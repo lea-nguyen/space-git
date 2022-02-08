@@ -1,0 +1,56 @@
+body{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    background-color: #201B2D;
+    color: white;
+}
+h1{
+    font-weight: 900;
+    padding: 0 24px;
+    font-size: calc(48px / 1rem);
+}
+h2{
+    font-weight: 700;
+    padding: 24px;
+    font-size: calc(12px / 1rem);
+}
+h3{
+    
+    font-weight: 700;
+    padding:  0 24px;
+    margin: 0;
+    font-size: 0.75rem;
+}
+section{
+    padding-left: 15px;
+    border-left: 7px white solid;
+    margin: 24px;
+    font-size: 1rem;
+}
+figcaption{
+    padding: 24px;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 1000px) {
+    img{
+        width: calc( calc( 2 * 100% ) / 3);
+    }
+    figcaption{
+        padding: 0 0 0 24px;
+    }
+    .container{
+        width: calc( 100% / 3);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    body{
+        display: flex;
+        width: 100%;
+    }
+}
